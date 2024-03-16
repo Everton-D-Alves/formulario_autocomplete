@@ -5696,7 +5696,7 @@
         <fieldset class = "mensagem">
             <legend>Mensagem do usuário</legend>
                 <p><label for="cGrau">Grau de urgência:</label>&nbsp;
-                Min<input type="range" name="tGrau" id="cGrau" min="1" max="3" step="1" required />Max</p>
+                Min<input type="range" name="tGrau" id="cGrau" min="1" max="3" step="1"  />Max</p>
                 <p><label for="cMsg">Mensagem:</label>&nbsp;
                 <textarea name="tMsg" id="cMsg" cols="40" rows="3" placeholder="Grau de urgência: Nº: 1 → Normal, Nº 2 → Médio, Nº 3 → Urgente. Digite algo." required></textarea></p>
         </fieldset>
@@ -5704,8 +5704,8 @@
         <fieldset class = "pedido">
             <legend>Quero um (Nome do produto)</legend>
                 <p>→ Gostaria de adquirir um (Nome do produto) quando disponível.</p>
-                <p><label for="cCor">Cor:</label>&nbsp;<input type="text" name="tCor" id="cCor" size="5" maxlength="40"/></p>
-                <p><label for="cQtd">Quantidade:</label>&nbsp;<input type="number" name="tQtd" id="cQtd" min="1" max="3"/></p>
+                <p><label for="cCor">Cor:</label>&nbsp;<input type="text" name="tCor" id="cCor" size="5" maxlength="40" required/></p>
+                <p><label for="cQtd">Quantidade:</label>&nbsp;<input type="number" name="tQtd" id="cQtd" min="1" max="3" required/></p>
                 <p><label for="cTot">Preço Total: R$</label>&nbsp;</p>
         </fieldset>
         <!-- 5º//////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
